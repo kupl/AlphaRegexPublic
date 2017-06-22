@@ -11,9 +11,8 @@ in Korea University.
 ## Paper
 AlphaRegex performs over- and under approximations 
 of partial regular expressions to accelerate the speed.
-For the more details, please refer to our GPCE '16 paper 
-"Synthesizing Regular Expressions from Examples 
-for Introductory Automata Assignments".
+For the more details, please refer to 
+our GPCE '16 paper ```Synthesizing Regular Expressions from Examples for Introductory Automata Assignments```.
 Please cite our paper if you find our work is intriguing.
 
 ## How to build
