@@ -1,0 +1,15 @@
+w does not contain 100 as a substring
+++
+X
+XX
+0XX
+X1X
+XX1
+X101
+0X01X
+XX1X1X1
+--
+100
+X100
+100X
+X100X

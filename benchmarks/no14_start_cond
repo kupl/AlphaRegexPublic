@@ -1,0 +1,14 @@
+w starts with 0 and has odd length, 
+or starts with 1 and has even length.
+++
+0
+0XX
+0XXXX
+1X
+1XXX
+--
+0X
+0XXX
+1
+1XX
+1XXXX

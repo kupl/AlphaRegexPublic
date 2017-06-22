@@ -1,0 +1,16 @@
+w has length at least 2 and does not end with 10
+++
+00
+01
+11
+X00
+X01
+X11
+XX00
+XX01
+XX11
+--
+X
+10
+X10
+XX10

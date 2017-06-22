@@ -1,0 +1,18 @@
+There are at least two occurences of 1
+between any two occurrences of 0.
+++
+0
+0110
+01110
+011110
+111
+01111
+1111110
+--
+00
+010
+10101
+010111
+111010
+0011111
+1111100

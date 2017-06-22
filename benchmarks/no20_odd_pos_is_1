@@ -1,0 +1,18 @@
+every odd position of w is 1.
+++
+1
+1X
+1X1
+1X1X
+1X1X1
+1X1X1X
+--
+0
+0X
+XX0
+0XXX
+XX0X
+0XXXX
+XX0XX
+XXXX0
+XXXX0X

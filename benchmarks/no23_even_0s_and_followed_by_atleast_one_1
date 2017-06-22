@@ -1,0 +1,19 @@
+w has an even number of 0's 
+and each 0 is followed by at least one 1.
+++
+1
+111
+0101
+10101
+0111011
+01101101110111
+--
+0
+0000
+010
+1010
+110
+10001
+01
+001
+011

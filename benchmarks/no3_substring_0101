@@ -1,0 +1,14 @@
+w contains the substring 0101
+++
+0101
+X0101X
+XX0101XX
+--
+0
+1
+XX
+XXX
+XXX0
+X0XX
+1XXX
+XX1X

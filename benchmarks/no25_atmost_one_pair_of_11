@@ -1,0 +1,14 @@
+The set of strings of 0's and 1's with 
+at most one pair of consecutive 1's
+++
+0
+11
+101010
+00011000
+00100110001
+--
+111
+110011
+0110110
+00011001100
+011100011110

@@ -1,0 +1,23 @@
+The set of all strings of 0s and 1s such that
+every pair of adjacent 0s appears
+before any pair of adjacent 1s.
+++
+0
+1
+01
+010
+0101
+1010
+00111
+001100111
+100110011
+--
+00
+100
+001
+0010
+1001
+11001
+00101
+001100
+1001011
