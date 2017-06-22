@@ -36,7 +36,7 @@ that we used for evaluation and you can easily check
 how positive/negative examples should be given to AlphaRegex.
 
 ## Contact
-AlphaRegex is Programming Research Laboratory in Korea University
+AlphaRegex is maintained by Programming Research Laboratory in Korea University
 (http://prl.korea.ac.kr).
 If you have any questions, feel free to email us: 
 hakjoo\_oh@korea.ac.kr, sunbeom\_so@korea.ac.kr 
