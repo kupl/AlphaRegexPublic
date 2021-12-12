@@ -20,6 +20,10 @@ After you clone this project, follow the steps below.
 -   Activate the build script: ```chmod +x build```.
 -   Complie the whole files using the script: ```./build```.
 
+## How to build with dune:
+Simply run ```dune build main.exe```.
+
+
 ## How to use
 To use AlphaRegex, you need to provide:
 -   Positive examples
