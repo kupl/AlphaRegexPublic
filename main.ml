@@ -83,7 +83,8 @@ let main () =
      (match pgm with
       | None -> print_endline "Fail to synthesize"
       | Some pgm -> 
-        let _ = pp pgm in
+         let _ = pp pgm in
+         print_endline ("Size = " ^ string_of_int( cost(pgm)) );
           print_endline ("Level: " ^ string_of_int (level pgm));
           sanity_check pgm pos_examples neg_examples;
           print_endline "============  REPORT  =============";

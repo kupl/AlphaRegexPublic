@@ -1,0 +1,39 @@
+#!/bin/bash
+
+EXEC=_build/default/main.exe
+DIR=benchmarks
+ALL=" no1_start_with_0 \
+ no2_end_with_01 \
+ no3_substring_0101 \
+ no4_begin_1_end_0 \
+ no5_length_at_least3_and_third_0 \
+ no6_len_is_3_mul \
+ no7_zeros_divisible_by_3 \
+ no8_even_zeros \
+ no9_5th1 \
+ no10_alternating  no11_0_followed_by_atleast_one_1 \
+ no12_n_is_ge_3_m_is_even \
+ no13_atmost_2zeros \
+ no14_start_cond \
+ no15_except_0_and_1 \
+ no16_not_end_with_01 \
+ no17_atleastone0_atmostone1 \
+ no18_0110 \
+ no19_not_contain_substring_100 \
+ no20_odd_pos_is_1 \
+ no21_exactly_00_once \
+ no22_atleast2_and_not_end_with_10 \
+ no23_even_0s_and_followed_by_atleast_one_1 \
+ no24_00_before_11 \
+ no25_atmost_one_pair_of_11"
+
+for e in ${ALL}
+do
+   echo ----------- ${e} -----------
+   echo ${EXEC} -input
+   ${EXEC} -input benchmarks/${e}	
+done
+
+
+
+
