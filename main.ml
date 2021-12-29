@@ -12,11 +12,11 @@ let onestep_xto01 : string -> string list
   then [str]
   else
     let idx = String.index str 'X' in
-    let str1 = str in
-    let str2 = Bytes.copy str in
+    let str1 = Bytes.of_string str in
+    let str2 = Bytes.copy (Bytes.of_string str) in
     let _ = Bytes.set str1 idx '0' in
     let _ = Bytes.set str2 idx '1' in
-    [str1]@[str2]
+    [Bytes.to_string str1]@[Bytes.to_string str2]
 
 (* onestep for all strings *)
 let onestep_strlst : string list -> string list 
@@ -83,7 +83,8 @@ let main () =
      (match pgm with
       | None -> print_endline "Fail to synthesize"
       | Some pgm -> 
-        let _ = pp pgm in
+         let _ = pp pgm in
+         print_endline ("Size = " ^ string_of_int( cost(pgm)) );
           print_endline ("Level: " ^ string_of_int (level pgm));
           sanity_check pgm pos_examples neg_examples;
           print_endline "============  REPORT  =============";

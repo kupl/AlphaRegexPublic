@@ -1,0 +1,7 @@
+(executable
+ (name main) 
+(libraries base batteries))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))

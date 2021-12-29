@@ -1,0 +1,14 @@
+#!/bin/bash
+
+EXEC=_build/default/main.exe
+DIR=benchmarks
+
+for e in ${DIR}/*
+do
+   echo ----------- ${e} -----------
+   ${EXEC} -input ${e}	
+done
+
+
+
+
